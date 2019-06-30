@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+    <head th:replace="fragments :: head"></head>
+    <body class="container">
+        <div th:replace="fragments :: page-header"></div>
+        <div id="plaintext-container">
+            <p th:text="${primaVM.plainLabel}"></p>
+            <p th:text="${primaVM.text.plaintext}"></p>
+        </div>
+        <div id="ciphertext-container">
+            <p th:text="${primaVM.cipherLabel}"></p>
+            <p th:text="${primaVM.text.ciphertext}"></p>
+        </div>
+    </body>
+</html>
+</html>
