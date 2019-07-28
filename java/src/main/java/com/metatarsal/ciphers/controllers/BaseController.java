@@ -56,6 +56,8 @@ public class BaseController {
             }
         }
 
+	scanner.close();
+
         Rot13Text rText = rot13Controller.rot13Cipher(new Rot13Text(plainText));
         CaesarText cText = caesarController.caesarCipher(new CaesarText(plainText, key));
         VigenereText vText = vigenereController.vigenereCipher(new VigenereText(plainText, keyword));
