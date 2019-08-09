@@ -4,9 +4,9 @@ A collection of ROT13, Caesar, and Vigenere ciphers written in various languages
 _Project status:_
 
 * C
-  * TODO: dependency injection, clean up entry point
-* C#
   * TODO: user input, memory management
+* C#
+  * TODO: dependency injection, clean up entry point
 * Go
   * TODO: clean up package structure, add Makefile
 * Java
