@@ -1,10 +1,18 @@
 # ciphers-polyglot
-A collection of ROT13, Caesar, and Vigenere ciphers written in various languages.
+A collection of ROT13, Caesar, and Vigenere ciphers written in various languages. Currently contains only command-line applications.
 
-Contains code samples sourced from several different projects. Revision in progress.
+_Project status:_
 
-_Code complete:_
-
+* C
+  * TODO: dependency injection, clean up entry point
 * C#
+  * TODO: user input, memory management
+* Go
+  * TODO: clean up package structure, add Makefile
 * Java
-
+  * code complete
+* JavaScript
+  * full revision needed 
+* Python
+  * full revision needed
+  
