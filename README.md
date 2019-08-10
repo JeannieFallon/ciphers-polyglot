@@ -1,5 +1,5 @@
 # ciphers-polyglot
-A collection of ROT13, Caesar, and Vigenere ciphers written in various languages. Currently contains only command-line applications.
+A collection of ROT13, Caesar, and Vigenere ciphers written in various languages. Currently contains command-line applications only.
 
 _Project status:_
 
